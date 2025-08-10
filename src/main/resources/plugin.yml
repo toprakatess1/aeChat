@@ -1,0 +1,26 @@
+name: aeChat
+main: me.toprak.aechat.AEChat
+version: 1.0
+api-version: 1.20
+description: Sohbet ve haber komutlarını içeren eklenti
+commands:
+  sohbet:
+    description: Sohbet yönetim komutu
+    usage: /sohbet <ac|kapat|sil> [oyuncu|herkes]
+    permission: aespeak.admin
+  sustur:
+    description: Bir oyuncuyu susturur
+    usage: /sustur <oyuncu>
+    permission: aespeak.admin
+  susturac:
+    description: Bir oyuncunun susturmasını kaldırır
+    usage: /susturac <oyuncu>
+    permission: aespeak.admin
+  haber:
+    description: Başlık veya alt başlık gönderir
+    usage: /haber <title|subtitle> <mesaj>
+    permission: aespeak.admin
+permissions:
+  aespeak.admin:
+    description: Tüm komutları kullanma izni
+    default: op

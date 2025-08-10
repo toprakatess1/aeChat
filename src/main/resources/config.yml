@@ -1,0 +1,15 @@
+chat-enabled: true
+
+messages:
+  chat-closed: "&cŞu anda sohbet kapalı!"
+  chat-opened: "&aSohbet açıldı!"
+  chat-closed-broadcast: "&cSohbet kapatıldı!"
+  chat-cleared: "&aSohbet temizlendi!"
+  muted-message: "&cSohbette susturuldunuz!"
+  unmuted-message: "&aSusturmanız kaldırıldı, artık sohbet edebilirsiniz."
+  no-permission: "&cBu komutu kullanmaya yetkin yok!"
+  player-not-found: "&cOyuncu bulunamadı!"
+  usage-sohbet: "&eKullanım: /sohbet <ac|kapat|sil> [oyuncu|herkes]"
+  usage-sustur: "&eKullanım: /sustur <oyuncu>"
+  usage-susturac: "&eKullanım: /susturac <oyuncu>"
+  usage-haber: "&eKullanım: /haber <title|subtitle> <mesaj>"
