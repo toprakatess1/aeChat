@@ -1,4 +1,4 @@
-A basic moderation like plugin.
+A basic plugin kinda like moderation.
 
 /sustur <player> <time> to mute players
 /susturac <player> to unmute players
